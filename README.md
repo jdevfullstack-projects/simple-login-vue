@@ -129,7 +129,7 @@ export default router
 
 ![image](https://user-images.githubusercontent.com/47092464/179388205-dfd8524c-7fce-40b2-af6a-e06f5b5c4c69.png)
 
-The views folder are what we see on the browser, to interact with
+The `views` folder is what we see on the browser, to interact with
 in our case here, it's the login form.
 
 The login view is the form and it will get the `username` and `password` and will
