@@ -1,9 +1,24 @@
 # simple-login-vue
-simple login vue
+This is a simple Login Vue form.
 
-this will consume the Laravel Endpoints 
+This will consume the Laravel Endpoints 
 
 <https://github.com/jdevstatic/laravel-test-crud>
+
+## Setup On Windows
+Download `Node.js` and select `npm`.
+
+Install Vue CLI too, 
+
+```
+npm install -g @vue/cli`
+```
+
+and axios
+
+```
+npm install axios --save
+```
 
 ## Running Project
 You can download this as a zip file, then extract.
