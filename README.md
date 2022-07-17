@@ -6,7 +6,7 @@ this will consume the Laravel Endpoints
 <https://github.com/jdevstatic/laravel-test-crud>
 
 ## Running Project
-You can download this as zip file, then extract.
+You can download this as a zip file, then extract.
 Then open cmd and change directory to the target project
 
 then 
@@ -23,9 +23,9 @@ npm run serve
 
 ## Tutorial
 ### The `index.js`
-The `index.js` inside router will route the pages.
+The `index.js` inside the router folder will route the pages.
 
-as you can see from the code below, there are paths to that
+as you can see from the code below, there are the paths to that
 
 ```
 	{
@@ -51,7 +51,7 @@ admin or regular user
 		}
 ```
 
-as you can see the name 200, which is the state returned from
+as you can see the name `200`, which is the state returned from
 POST response coming from the endpoint of 
 
 `http://localhost:8000/api/authenticate`
@@ -129,11 +129,11 @@ export default router
 
 ![image](https://user-images.githubusercontent.com/47092464/179388205-dfd8524c-7fce-40b2-af6a-e06f5b5c4c69.png)
 
-the views folder are what we see on the browser, to interact with
-in our case here, it's the login form
+The views folder are what we see on the browser, to interact with
+in our case here, it's the login form.
 
 The login view is the form and it will get the `username` and `password` and will
-be send as POST through `axios`, then it should receive the response,
+be sent as POST through `axios`, then it should receive the response,
 
 one of my highlight here is the response code, 200 for admin, 201 for users, and 404
 for unsuccessful attempts
